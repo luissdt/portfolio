@@ -319,7 +319,6 @@ span {
 
 /* Works */
 
-
 .works {
     height: 400px;
     position: relative;
@@ -424,7 +423,6 @@ span {
     opacity: 1;
 }
 
-
 /* Footer */
 
 .f-container {
@@ -498,7 +496,7 @@ ul {
     color: #222222;
     font-size: 18px;
 }
-/* Responsive */    /*  Obs: não muito bom, mas nada muito ruim 👍 */
+/* Responsive */    /*  Obs: nada muito bom, mas nada muito ruim 👍 */
 
 @media (max-width: 790px), (max-width: 990px), (max-width: 1325px) {
     
@@ -514,7 +512,7 @@ ul {
     }
 }
 
-@media (max-width: 550px), (max-width: 570px), (max-width: 690px), (max-width: 700px) {
+@media (max-width: 550px), (max-width: 570px), (max-width: 690px), (max-width: 700px), (max-width: 720px) {
     
     .content {
         display: flex;
