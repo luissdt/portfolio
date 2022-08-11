@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luis Dutra - Portfolio</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <div id="splash"> 
+        <h1 class="fade-in">Welcome to my Portfolio</h1>
+        <div class="wrapper">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <header>
+        <img src="assets/LD.png">
+        <nav>
+            <ul class="nav-links">
+                <li><a class="und" href="#about">About</a></li>
+                <li><a class="und" href="#work">Work</a></li>
+                <li><a class="und" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <ul class="social-bar">
+            <li>
+                <a target="_blank" href="https://discord.com/users/972551598272299009" aria-label="Find me on Discord"></a>
+                <i class="fab fa-discord"></i>
+            </li>
+            <li>
+                <a target="_blank" href="https://instagram.com/luiss.dt" aria-label="Find me on Instagram"></a>
+                <i class="fab fa-instagram"></i>
+            </li>
+            <li>
+                <a target="_blank" href="https://github.com/javoxfps" aria-label="Find me on Github"></a>
+                <i class="fab fa-github"></i>
+            </li>
+        </ul>
+    </div>
+    <div class="content">
+        <div class="home">
+            <h1 class="title">I'm <span class="name">Luis Dutra</span></h1>
+            <i><span class="typing"></span></i>
+        </div>
+    </div>
+    <div class="about">
+        <h1 id="about" class="t-about">About Me</h1>
+        <p class="p-about">My name is Luis, I'm 16 years old and I'm a Front-End developer. I already have experience with HTML, CSS and I'm learning JavaScript. I speak Portuguese and English.</p>
+    </div>
+
+    <div class="w-title" id="spoiler">
+        <h1 id="work">Works</h1>
+    </div>
+     <div class="works">
+        <span id="item-1"></span>
+        <span id="item-2"></span>
+        <span id="item-3"></span>
+        <span id="item-4"></span>
+    <div class="work-spoiler item-1">
+        <a href="#item-3" class="arrow-next arrow"></a>
+        <a href="#item-2" class="arrow-prev arrow"></a>
+        <a href="#item-2" class="arrow-next arrow"></a>
+    </div>
+    <div class="work-spoiler item-2">
+        <a href="#item-1" class="arrow-prev arrow"></a>
+        <a href="#item-3" class="arrow-prev arrow"></a>
+        <a href="#item-3" class="arrow-next arrow"></a>
+    </div>
+    <div class="work-spoiler item-3">
+        <a href="#item-2" class="arrow-prev arrow"></a>
+        <a href="#item-1" class="arrow-prev arrow"></a>
+        <a href="#item-1" class="arrow-next arrow"></a>
+    </div>
+    <!-- <div class="work-spoiler item-4"> 
+        <a href="#item-3, #item-1" class="arrow-prev arrow"></a>
+        <a href="#item-2" class="arrow-next arrow"></a>
+    </div> -->
+    </div>
+    <footer class="footer">
+        <div class="f-container">
+          <div class="row">
+            <div class="categories">
+              <h4 id="contact">SOCIAL</h4>
+              <div class="social-links">
+                <a id="dc" target="_blank" href="https://discord.com/users/972551598272299009"><i class="fa-brands fa-discord"></i></a>
+                <a id="gh" target="_blank" href="https://instagram.com/luiss.dt"><i class="fa-brands fa-github"></i></a>
+                <a id="ig" target="_blank" href="https://github.com/javoxfps"><i class="fa-brands fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>
