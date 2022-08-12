@@ -496,6 +496,8 @@ ul {
     color: #222222;
     font-size: 18px;
 }
+
+
 /* Responsive */    /*  Obs: nada muito bom, mas nada muito ruim 👍 */
 
 @media (max-width: 790px), (max-width: 990px), (max-width: 1325px) {
